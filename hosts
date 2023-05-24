@@ -1,0 +1,4 @@
+[rke]
+rke-ssh 			ansible_host=localhost			        ansible_ssh_remote=ubuntu
+rke-master			ansible_host=43.207.194.163			ansible_ssh_remote=ubuntu
+rke-worker			ansible_host=18.181.251.77			ansible_ssh_remote=ubuntu

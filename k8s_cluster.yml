@@ -1,0 +1,8 @@
+- name: install docker && k8s
+  hosts: all
+  remote_user: ubuntu
+  #become: true
+  #become_user: root
+  roles:
+          - {role: docker, tags: ['docker']}
+          - {role: k8s, tags: ['k8s']}
